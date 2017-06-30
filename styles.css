@@ -1,0 +1,35 @@
+.main_nav a{
+	color: #968772;
+	
+}
+.main_nav {
+	width: 1000px;
+	border:1px solid gray;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	background-color: #FFFFFF;
+	
+
+}
+.nav {
+	display: flex;
+
+}
+#logo {
+	
+}
+.header {
+	color: black;
+	text-align: center;
+	
+}
+#wrapper {	
+	background-color: #F2F1E8;
+	width: 1000px;
+}
+body {
+	background-color: black;
+	margin: auto;
+	width: 1000px;
+}
