@@ -1,3 +1,6 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400i" rel="stylesheet">
+
+
 .main_nav a{
 	color: #968772;
 	
@@ -9,20 +12,26 @@
 	position: fixed;
 	top: 0;
 	background-color: #FFFFFF;
-	
+	line-height: 50px;
 
 }
 .nav {
 	display: flex;
 
+
+}
+#wrapper {
+
 }
 #logo {
-	
+	position: absolute;
+	left: 10px;
+	width: 30px;
+	height: auto;
 }
 .header {
 	color: black;
 	text-align: center;
-	
 }
 #wrapper {	
 	background-color: #F2F1E8;
@@ -32,4 +41,22 @@ body {
 	background-color: black;
 	margin: auto;
 	width: 1000px;
+	font-family: 'Roboto', sans-serif;
+
+}
+footer	{
+	border:1px solid gray;
+	background-color: gray;
+	padding: 30px;
+}
+span {
+	background-color: gray;
+	color: white;
+
+}
+.picture_list {
+	display: flex;
+}
+span {
+	position: relative;
 }
