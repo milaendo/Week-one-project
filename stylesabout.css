@@ -42,7 +42,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: lighter;
 	background-color: #F2F1E8;
 	width: 1000px;
 	margin: auto;
@@ -69,9 +69,10 @@ body {
 	height: 200px;
 	background-image:url("optimized/background-3.jpg");
 
+
 }
 
-#words {
+span {
 	color: white;
 	font-weight: bold;
 	vertical-align: middle;
@@ -80,14 +81,18 @@ body {
 footer	{
 	border:1px solid rgb(44,47,39);
 	background-color: rgb(44,47,39);
-	padding: 30px;
 	color: #F2F1E8;
 	width: 1000px;
-
+	margin: auto;
+	padding:25px 0px;
 }
 .second_content {
 	margin: 30px 150px 0px;
+	line-height: 2;
 
+}
+.second-content img {
+	padding:0 30px 30px;
 }
 aside img {
 	height:150px;
@@ -99,17 +104,18 @@ aside {
 	width:200PX;
 	font-size: 15PX;
 }
-blockquote {
+.quote {
 	font-weight: lighter;
 	border-left: 2px solid #967343;
 	padding: 30px;
 	line-height: 1;
-	width:700px;
+	
 
 
 }
 table {
     border-collapse: collapse;
+    
 }
 
 table, th, td {
@@ -126,9 +132,9 @@ table, th, td {
 	background-color: rgb(242,234,220);
 }
 
-
-
-
+h2 {
+	font-weight: lighter;
+}
 
 
 
