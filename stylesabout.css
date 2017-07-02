@@ -1,0 +1,73 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400i" >
+
+.main_nav a {
+	color: #968772;
+	
+}
+.main_nav {
+	width: 1440px;
+	border:1px solid #FFFFFF;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	background-color: #FFFFFF;
+	line-height: 50px;
+	
+}
+.nav a {
+	color: #967343;
+	padding: 30px;
+	text-transform: uppercase;
+}
+.nav {
+	display: flex;
+	justify-content: center;
+
+}
+#wrapper {
+
+}
+#logo {
+	position: absolute;
+	left: 40px;
+	width: 40px;
+	height: 40px;
+	height: auto;
+}
+
+.body {
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	font-size: 20px;
+	font-weight: lighter;
+	background-color: #F2F1E8;
+}
+.main_content img {
+	float: left;
+	width: 200px;
+	height: 200PX;
+	
+}
+
+#h1_about {
+	font-size: 50px;
+	text-align: center;
+}
+#middle_picture img {
+	width: 1420px;
+	height: 500px;
+	background-image:url("./opitmized/background-3.png");
+
+}
+
+#words {
+	color: white;
+	text-align: center;
+	
+}
+footer	{
+	border:1px solid rgb(44,47,39);
+	background-color: rgb(44,47,39);
+	padding: 20px;
+	color: #F2F1E8;
+}
