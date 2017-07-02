@@ -12,6 +12,7 @@
 	top: 0;
 	background-color: #FFFFFF;
 	line-height: 50px;
+	font-size: 20px;
 	
 }
 .nav a {
@@ -38,36 +39,87 @@
 .body {
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
-	font-size: 20px;
-	font-weight: lighter;
+	font-size: 25px;
+	font-weight: normal;
 	background-color: #F2F1E8;
+
 }
 .main_content img {
 	float: left;
-	width: 200px;
-	height: 200PX;
-	
+	width: 150px;
+	height: 120PX;
 }
 
+.main_content {
+	margin: 30px 150px;
+
+}
 #h1_about {
 	font-size: 50px;
 	text-align: center;
 }
-#middle_picture img {
-	width: 1420px;
-	height: 500px;
-	background-image:url("./opitmized/background-3.png");
+#middle_picture {
+	width: 1430px;
+	height: 200px;
+	background-image:url("optimized/background-3.jpg");
 
 }
 
 #words {
 	color: white;
-	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
 	
 }
 footer	{
 	border:1px solid rgb(44,47,39);
 	background-color: rgb(44,47,39);
-	padding: 20px;
+	padding: 30px;
 	color: #F2F1E8;
 }
+.second_content {
+	margin: 30px 150px 0px;
+}
+aside img {
+	height:150px;
+	width:200px;
+}
+aside {
+	float: right;
+	width:200PX;
+	font-size: 15PX;
+}
+blockquote {
+	font-weight: lighter;
+	border-left: 2px solid #967343;
+	padding: 30px;
+
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+   padding: 15px;
+}
+.header {
+	text-align: center;
+}
+.second-row {
+	background-color: rgb(242,234,220);
+}
+.fourth-row {
+	background-color: rgb(242,234,220);
+}
+
+
+
+
+
+
+
+
+
+
+
