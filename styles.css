@@ -98,15 +98,32 @@ span {
 h1 {
 	font-size: 400%;
 	font-weight:normal;
+
 }
 h2	{
 	font-weight: lighter;
 }
+.body {
+	background-color: #F2F1E8;
+	margin: auto;
+	width: 1000px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	font-size: 30px;
+	font-weight: lighter;
+	padding: 70px;
+}
+.main_content img {
+	float: left;
+	width: 200px;
+	height: 200PX;
+	padding: 10px;
+}
 
-
-
-
-
+#h1_about {
+	font-size: 50px;
+	text-align: center;
+}
 
 
 
