@@ -5,7 +5,7 @@
 	
 }
 .main_nav {
-	width: 1440px;
+	width: 1000px;
 	border:1px solid #FFFFFF;
 	text-align: center;
 	position: fixed;
@@ -35,23 +35,29 @@
 	height: 40px;
 	height: auto;
 }
-
+body {
+	background-color: black;
+}
 .body {
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
-	font-size: 25px;
+	font-size: 18px;
 	font-weight: normal;
 	background-color: #F2F1E8;
+	width: 1000px;
+	margin: auto;
 
 }
 .main_content img {
 	float: left;
 	width: 150px;
 	height: 120PX;
+	padding: 0 20px 0 0px;
 }
 
 .main_content {
 	margin: 30px 150px;
+	line-height: 2;
 
 }
 #h1_about {
@@ -59,7 +65,7 @@
 	text-align: center;
 }
 #middle_picture {
-	width: 1430px;
+	width: 1000px;
 	height: 200px;
 	background-image:url("optimized/background-3.jpg");
 
@@ -76,13 +82,17 @@ footer	{
 	background-color: rgb(44,47,39);
 	padding: 30px;
 	color: #F2F1E8;
+	width: 1000px;
+
 }
 .second_content {
 	margin: 30px 150px 0px;
+
 }
 aside img {
 	height:150px;
 	width:200px;
+
 }
 aside {
 	float: right;
@@ -93,6 +103,9 @@ blockquote {
 	font-weight: lighter;
 	border-left: 2px solid #967343;
 	padding: 30px;
+	line-height: 1;
+	width:700px;
+
 
 }
 table {
