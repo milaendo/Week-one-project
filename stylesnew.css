@@ -1,0 +1,85 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400i" >
+
+.main_nav a {
+	color: #968772;
+	
+}
+.main_nav {
+	width: 1300px;
+	height:60px;
+	border:1px solid #FFFFFF;
+	text-align: center;
+	position: fixed;
+	top: 100px;
+	background-color: #FFFFFF;
+	line-height: 60px;
+	font-size: 20px;
+	
+}
+.nav a {
+	color: #967343;
+	padding: 30px;
+	text-transform: uppercase;
+}
+.nav {
+	display: flex;
+	justify-content: center;
+
+}
+#logo {
+	position: absolute;
+	left: 20px;
+	width: 40px;
+	height: 40px;
+	height: auto;
+}
+body {
+	background-color: black;
+}
+.body {
+	width:1300px;
+	height:700px;
+	margin: auto;
+	padding:101px 0 101px;
+	
+}
+img {
+	width:1300px;
+	height:600px;
+	justify-content: center;
+	position:fixed;
+	top:161px;
+
+}
+input[type=text] {
+    width: 40%;
+    height: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-bottom: 1px;
+    border:none;
+    position: relative;
+    left: 350px;
+    top:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
