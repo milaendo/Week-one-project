@@ -35,8 +35,10 @@
 }
 body {
 	background-color: black;
+
+
 }
-.body {
+.main {
 	width:1300px;
 	height:700px;
 	margin: auto;
@@ -62,7 +64,6 @@ input[type=text] {
     left: 350px;
     top:300px;
 }
-
 
 
 
