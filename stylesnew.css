@@ -10,7 +10,6 @@
 	border:1px solid #FFFFFF;
 	text-align: center;
 	position: fixed;
-	top: 100px;
 	background-color: #FFFFFF;
 	line-height: 60px;
 	font-size: 20px;
@@ -26,45 +25,63 @@
 	justify-content: center;
 
 }
-#logo {
-	position: absolute;
-	left: 20px;
-	width: 40px;
-	height: 40px;
-	height: auto;
+
+.logo {
+	background:url(./optimized/bent-creek-logo.png) no-repeat;
+	padding:0;
+	text-indent:-9999px;
+	position:absolute;
+	left:20px;
+	width:40px;
+	height:40px;
+	background-size:40px 40px;
+	top:10px;
 }
+
+.logo:hover {
+	background:url(./optimized/bent-creek-logo-coral.png) no-repeat;
+	background-size:40px 40px;
+}
+
 body {
 	background-color: black;
-
-
+	font-family: 'Roboto', sans-serif;
 }
-.main {
-	width:1300px;
-	height:700px;
+
+.form {
+	background-color: white;
+	position: relative;
+	top: 200px;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	width: 700px;
 	margin: auto;
-	padding:101px 0 101px;
-	
 }
-img {
-	width:1300px;
-	height:600px;
-	justify-content: center;
-	position:fixed;
-	top:161px;
-
+.wrapper {
+	margin: auto;
+	width: 1300px;
+	height: auto;
 }
-input[type=text] {
-    width: 40%;
-    height: 40%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border-bottom: 1px;
-    border:none;
-    position: relative;
-    left: 350px;
-    top:300px;
+#formwrap {
+	background-image: url("./optimized/background-2.jpg");
+	background-size: cover;
+	height:750px;
 }
-
+input {
+	width: 75%;
+	height:40px;
+	border:none;
+	border-bottom: 2px solid #968772;
+	margin: 10px 70px;
+	font-size: 20px;
+	color
+}
+#submit {
+	width: 100px;
+	background-color: #968772;
+	color: white;
+}
 
 
 
