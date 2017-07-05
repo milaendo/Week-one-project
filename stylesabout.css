@@ -1,4 +1,7 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400i" >
+a:visited {
+	color:#967343;
+}
+
 
 .main_nav a {
 	color: #968772;
